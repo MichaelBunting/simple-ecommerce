@@ -1,0 +1,7 @@
+{
+  "ignore": [
+    "assets/**",
+    "src/**",
+    "node_modules/**"
+  ]
+}
