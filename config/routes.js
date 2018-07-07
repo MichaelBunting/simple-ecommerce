@@ -24,8 +24,14 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'pages/homepage'
+  'get /prototype/*': {
+    action: 'prototype/show',
+    skipAssets: true,
+  },
+
+  'get *': {
+    view: 'pages/index',
+    skipAssets: true,
   },
 
   /***************************************************************************

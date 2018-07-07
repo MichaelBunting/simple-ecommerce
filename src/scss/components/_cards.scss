@@ -1,0 +1,34 @@
+.card {
+    border-radius: 4px;
+    background: $white;
+    box-shadow: 0 10px 15px rgba($cape-cod, .1);
+}
+
+.card__img {
+    position: relative;
+
+    img {
+        border-radius: 4px 4px 0 0;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.card__content {
+    padding: 20px;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.card__subtitle {
+    opacity: .5;
+    font-size: 14px;
+}
+
+.card__text {
+    margin-top: 10px;
+}

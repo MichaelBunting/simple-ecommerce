@@ -1,0 +1,33 @@
+.btn {
+    font-size: 16px;
+    font-family: $lato;
+    appearance: none;
+    border: 0;
+    padding: 12px 30px;
+    background: $pampas;
+    border-radius: 4px;
+    transition: .2s;
+    cursor: pointer;
+
+    &:hover {
+        background: darken($pampas, 8%);
+        transform: translateY(-3px);
+        box-shadow: 0 3px 10px rgba($cape-cod, .15);
+    }
+
+    &--primary {
+        background: $anzac;
+
+        &:hover {
+            background: darken($anzac, 8%);
+        }
+    }
+
+    &--secondary {
+        background: $opal;
+
+        &:hover {
+            background: darken($opal, 8%);
+        }
+    }
+}
